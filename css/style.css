@@ -8,6 +8,7 @@
     font-family: Helvetica, sans-serif;
 
     --purple: #9227c3;
+    --aquamarine: #7aebff;
     --purple-dark: #7a21a3;
     --pink: #cb3582;
     --gradient: linear-gradient(to right, var(--pink), var(--purple));
@@ -26,12 +27,15 @@ h1{
 }
 
 .nav-link:hover{
-    background-color: black;
+    background-color: var(--purple-dark);
 }
 
-.carousel-container{
+.paralax-container{
     background: url(../images/capa.png), var(--gradient);
     height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
 }
 
 .btn-customized{
@@ -46,6 +50,30 @@ h1{
     color: var(--purple);
 }
 
+.aquamarine{
+    color: var(--aquamarine);
+}
+
 .width-fifity{
     width: 50%;
+}
+
+.custom-width{
+    width: 100%;
+}
+
+.images-position{
+    display: flex;
+    transform: rotate(20deg);
+    width: 40%;
+}
+
+.images-position > img{
+    width: 62%;
+}
+
+@media screen and (min-width: 992px){
+    .custom-width{
+        width: 25%;
+    }
 }

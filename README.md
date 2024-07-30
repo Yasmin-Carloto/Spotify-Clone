@@ -1,6 +1,6 @@
 # Spotify Clone
 
-Esse projeto foi desenvolvido como uma das atividades da Trilha síncrona de 6 meses de Desenvolvedor Jr. da +PraTi. Foi feito para treinar e desenvolver conhecimento e prática usando Bootstrap,
+Esse projeto foi desenvolvido como uma das atividades da Trilha síncrona de 6 meses de Desenvolvedor Jr. da +PraTi. Foi feito para treinar e desenvolver conhecimento e prática usando Bootstrap.
 
 ## Acessar o Spotify Clone
 O Spotify Clone está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/Spotify-Clone/](https://yasmin-carloto.github.io/Spotify-Clone/)

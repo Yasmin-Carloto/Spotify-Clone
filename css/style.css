@@ -21,6 +21,14 @@ h1{
     font-family: 'Archivo Black', sans-serif;
 }
 
+.nav-link{
+    border-radius: 2vw;
+}
+
+.nav-link:hover{
+    background-color: black;
+}
+
 .carousel-container{
     background: url(../images/capa.png), var(--gradient);
     height: 100vh;

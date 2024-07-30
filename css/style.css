@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Helvetica, sans-serif;
+
+    --purple: #9227c3;
+    --purple-dark: #7a21a3;
+    --pink: #cb3582;
+    --gradient: linear-gradient(to right, var(--pink), var(--purple));
+}
+
+body, html{
+    height: 100%;
+}
+
+h1{
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.carousel-container{
+    background: url(../images/capa.png), var(--gradient);
+    height: 100vh;
+}
+
+.btn-customized{
+    background-color: var(--purple);
+}
+
+.btn-customized:hover{
+    background-color: var(--purple-dark);
+}
+
+.purple{
+    color: var(--purple);
+}
+
+.width-fifity{
+    width: 50%;
+}
